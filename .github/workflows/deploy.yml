@@ -26,7 +26,7 @@ jobs:
         run: npm install
 
       - name: Gerar build estático
-        run: npm run build && npm run export
+        run: npm run build
 
       - name: Publicar no GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
